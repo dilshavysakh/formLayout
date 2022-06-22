@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ck editor -->
+    <script src="https://cdn.ckeditor.com/4.19.0/standard/ckeditor.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Ntigra</title>
+  </head>
+  <body>
+  <style>.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.icon {
+  padding: 16px;
+  margin-left: 183px;
+  color: black;
+}
+ 
+.input-field {    
+  width: 59%;
+    padding:9px 34px;
+    float: right;
+}
+#searchID input {
+            width: 350px;
+            height: 20px;
+            margin: 0;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid black;
+            color: #727272;
+            float: left;
+            font: 12px "Lucida Sans Unicode", sans-serif;
+            transition: background 0.4s ease-in-out 0s;
+        }
+.logo-clr1{
+  color:#604a8b;
+}
+.logo-clr2{
+  color:#e79b8e;
+}          
+.bg-clr1{
+ background-color:#604a8b ;
+}
+.bg-clr2{
+ background-color:#e79b8e ;
+}
+.border-clr1{
+  border:3px solid #604a8b;
+  border-radius: 5px;
+}
+.border-clr2{
+  border:3px solid #e79b8e;
+  border-radius: 5px;
+}
+option{
+  background-color:#e79b8e ;
+  color: #2d0b71;
+}
+
+  </style>
+
+  <div class="content">
+    
+    <div class="containerr">
+      <div class=" align-items-stretch no-gutters contact-wrap">
+
+        <div class="">
+          <div class="contact-info h-100">
+            <div class="row">
+              <div class="col-md-1">
+                <img src="images/pic1.jpg" alt=""class="rounded-circle"style="width: 56px;" >
+              </div>
+              <div class="col-md-3 col-sm-4">
+                <h6 class="contact_info_h5">John Mark Labadia</h6>
+                <h6 class="contact_info_h5">Male, 19-02-1993/26Y 12M 6D</h6>
+              </div>
+              <div class="col-md-2 col-sm-4">
+                <h6 class="contact_info_h5">MRN:247</h6>
+                <h6 class="contact_info_h5">PVR:6565632</h6>
+              </div>
+              <div class="col-md-2 col-sm-4">
+                <h6 class="contact_info_h5">Insurance</h6>
+                <h6 class="contact_info_h5">25-03-2020 14:00</h6>
+              </div>
+              <div class="col-md-4 col-sm-4 input-icons">
+                <i class="fa fa-search icon"></i>
+                <input type="text" id="searchInputID" placeholder="Nationality" class="searchClass input-field rounded border">
+                <span id="result"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="form h-100">
+              <div>
+                <div class="row">
+                  <div class="col logo-clr1 logo-clr1" >
+                    Temp
+                    <br>
+                    <input type="text" class="form-group" id="temp" style="width:84px ;"> °C
+                  </div>
+                  <div class="col logo-clr1">
+                    Pulse <br>
+                    <input type="text" class="form-group" style="width:84px ;" id="temp"> /min
+                  </div>
+                  <div class="col logo-clr1">
+                    R.R <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> /min
+                  </div>
+                  <div class="col logo-clr1">
+                    Systolic <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> mmHg
+                  </div>
+                  <div class="col logo-clr1">
+                    Diastolic <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> mmHg
+                  </div>
+                  <div class="col logo-clr1">
+                    O2SAT <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> %
+                  </div>
+                  <div class="col logo-clr1">
+                    A.G <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> cm
+                  </div>
+                  <div class="col logo-clr1">
+                    Height <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> cm
+                  </div>
+                  <div class="col logo-clr1">
+                    Weight <br>
+                    <input type="text" class="form-group" style="width:84px ;"id="temp"> cm
+                  </div>
+                </div>
+                <br>
+                <div class="row logo-clr1">
+                  <div class="col-md-6 left_side">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <label class="form-label " for="textAreaExample3">Chief Complaints & History of Present Illness</label>
+                        </div>
+                        <div class="col-md-3">
+                          <a class=" dropdown-toggle logo-clr1" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                            Templates
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">example1</a>
+                            <a class="dropdown-item" href="#">example2</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-outline">
+                        <textarea class="form-control" name="txt_area" id="textAreaExample3" rows="2"></textarea>
+                      </div>
+                      <div class="mt-3">
+                        <p style="display: inline;" class="mr-5">Any Allergies?  :</p>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="mx-2" value="1"  checked >Yes
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="mx-2" value="2">No
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="mx-2" value="2">Not Known
+                        </label>
+                        <label class="radio-inline">
+                          <input type="radio" name="optradio" class="mx-2" value="2">No Changes
+                        </label>
+                      </div>
+                        <div class="toHide" id="blk-1">
+                          <div  class="row " >
+                            <div class="col-md-3">
+                              <select class="form-select h-100 rounded" aria-label="Default select example" id="type" style="color:#837e9e">
+                                <option selected value="">Allergy Type</option>
+                                <option value="Food allergy">Food allergy</option>
+                                <option value="Dust allergy">Dust allergy</option>
+                              </select>
+                            </div>
+                            <div class="col-md-5">
+                                <i class="fa fa-search icon2"></i>
+                                <input type="text" placeholder="Allergies" class="rounded w-75" id="allergy">
+                                <span id="result2"></span>
+                            </div>
+                            <div class="col-md-3">
+                              <input type="text"placeholder="Kind of Reaction" class="rounded w-100" id="reactn">
+                            </div> 
+                            <div class="col-md-1">
+                              <button onclick="publishToTable()" style="text-decoration: none;"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                            </div>
+                          </div>
+                          <div id="tables">
+                            <table id="table" class="mt-4 table table-bordered table-hover">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Allergy Type</th>
+                                  <th scope="col">Allergies</th>
+                                  <th scope="col">Kind of Reaction</th>
+                                  <th scope="col">ICD(S)</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Food Allergy</td>
+                                  <td>Shell Fish</td>
+                                  <td>Itching</td>
+                                  <td>291.013</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                  </div>
+                  <div class=" verticalLine" style="border-left: 1px solid #ebe7e7;">
+                  </div>
+
+                  <div class="col-md-5 right_side my-3 mt-5">
+                    <div class="">
+                      <i class="fa fa-search icon2"></i>
+                      <input type="text" id="" placeholder=" ICDs" class="rounded w-75">
+                      <span id="result2"></span>
+                    </div>
+                    <div>
+                      <table class="mt-4 table table-bordered table-hover" >
+                        <thead>
+                          <tr>
+                            <th scope="col">ICD Code</th>
+                            <th scope="col">Description</th>
+                            <th scope="col">Primary/Secondary</th>
+                            <th scope="col">Provisional/Final</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td scope="row">E55.9</td>
+                            <td>Vitamin D deficiency,unspecified</td>
+                            <td>Secondary</td>
+                            <td>Provisional</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">R05</td>
+                            <td>Cough</td>
+                            <td>Secondary</td>
+                            <td>Final</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">R52</td>
+                            <td >Pain,unspecified</td>
+                            <td>Secondary</td>
+                            <td>Final</td>
+                          </tr>
+                          <tr>
+                            <td scope="row">E78.0</td>
+                            <td >Pure hypercholesterolemia</td>
+                            <td>Secondary</td>
+                            <td>Provisional</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+  </div>
+    
+
+  <script>
+
+    //if no allergy then hide type of allergy and table
+    $(function() {
+    $("[name=optradio]").click(function(){
+            $('.toHide').hide();
+            $("#blk-"+$(this).val()).show('slow');
+    });
+ });
+
+//  when allergy added to form then it inserting into table
+function publishToTable() {
+        const reactn = document.getElementById('reactn').value;
+        const allergy = document.getElementById('allergy').value;
+        const allergyType = document.getElementById('type');
+        var type=$('#type :selected').text();
+        
+        if (reactn && allergy && type) {
+            const tableElement = document.getElementById('table');
+            const trElement = document.createElement('tr');
+            const tbodyElement = document.createElement('tbody');
+            const reactnEle = document.createElement('td');
+            const allergyEle = document.createElement('td');
+            const typeEle=document.createElement('td');
+            reactnEle.innerHTML = reactn;
+            allergyEle.innerHTML = allergy;
+            typeEle.innerHTML = type;
+            trElement.appendChild(reactnEle);
+            trElement.appendChild(allergyEle);
+            trElement.appendChild(typeEle);
+            tbodyElement.appendChild(trElement);
+            tableElement.appendChild(tbodyElement);
+        }
+        
+    }
+
+
+//auto complete nation
+
+  $(".searchClass").autocomplete({
+            source: function (request, response) {
+                console.log(request.term);
+                $.ajax({
+  
+                    // Wikipedia API url link
+                    url:
+                    "http://en.wikipedia.org/w/api.php",
+                    dataType: "jsonp",
+                    data: {
+                        action: "opensearch",
+                        // Output format
+                        format: "json",
+                        search: request.term,
+                        namespace: 0,
+                        limit: 8,
+                    },
+                    success: function (data) {
+                        response(data[1]);
+                    },
+                });
+            },
+        });
+</script>
+
+
+<script>
+      CKEDITOR.replace( 'txt_area' );
+  </script>
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
